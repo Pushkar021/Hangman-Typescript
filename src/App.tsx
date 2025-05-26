@@ -54,21 +54,7 @@ function App() {
         <Hangman numberOfGuesses={wrongCount} />
         <Hangmanword words={randWord} getWords={getOnClick} onwrong={onWrongUpdate} />
         <Keyboard onGuess={onGuess} guessedLetters={getOnClick} />
-        <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 flex items-center gap-2 bg-black bg-opacity-70 px-4 py-2 rounded-full shadow-md max-w-[90%] text-sm sm:text-base text-white">
-  <span className="whitespace-nowrap">Made with ❤️ by Pushkar</span>
-  <a
-    href="https://github.com/your-username/your-repo"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img
-      src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-      alt="GitHub"
-      className="w-5 h-5 sm:w-6 sm:h-6 hover:scale-110 transition-transform"
-    />
-  </a>
-</div>
-
+        
 
       
 
