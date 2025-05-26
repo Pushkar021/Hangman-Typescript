@@ -54,7 +54,7 @@ function App() {
         <Hangman numberOfGuesses={wrongCount} />
         <Hangmanword words={randWord} getWords={getOnClick} onwrong={onWrongUpdate} />
         <Keyboard onGuess={onGuess} guessedLetters={getOnClick} />
-        <div className="fixed bottom left-1/2 transform -translate-x-1/2 flex items-center gap-2 bg-black bg-opacity-70 px-4 py-2 rounded-full shadow-md max-w-[90%] text-sm sm:text-base text-white">
+        <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 flex items-center gap-2 bg-black bg-opacity-70 px-4 py-2 rounded-full shadow-md max-w-[90%] text-sm sm:text-base text-white">
   <span className="whitespace-nowrap">Made with ❤️ by Pushkar</span>
   <a
     href="https://github.com/your-username/your-repo"
