@@ -56,17 +56,21 @@ function App() {
         <Keyboard onGuess={onGuess} guessedLetters={getOnClick} />
         <div className="fixed bottom-3 mt-2  flex items-center gap-2 text-black text-sm  bg-opacity-70 px-4 py-2 rounded-full shadow-md">
   <span>Made with ❤️ by Pushkar</span>
+  <div className="fixed bottom-3  flex items-center gap-2 bg-black bg-opacity-70 px-4 py-2 rounded-full shadow-md max-w-[90%] text-sm sm:text-base text-white">
+  <span className="whitespace-nowrap">Made with ❤️ by Pushkar</span>
   <a
-    href="https://github.com/Pushkar021/Hangman-Typescript"
+    href="https://github.com/your-https://github.com/Pushkar021/Hangman-Typescript"
     target="_blank"
     rel="noopener noreferrer"
   >
     <img
       src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
       alt="GitHub"
-      className="w-6 h-6 hover:scale-110 transition-transform duration-300"
+      className="w-5 h-5 sm:w-6 sm:h-6 hover:scale-110 transition-transform"
     />
   </a>
+</div>
+
 </div>
 
       
