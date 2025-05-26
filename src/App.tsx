@@ -50,7 +50,7 @@ function App() {
   return (
     <>
       <div className='flex flex-col gap-[2rem] items-center mt-2 overflow-x-hidden min-h-screen'>
-        <div className='flex gap-2 text-[2rem] text-center'>Hangman Game   </div>
+        <div className='flex gap-2 text-[2rem] text-center'>Hangman Game with TS</div>
         <Hangman numberOfGuesses={wrongCount} />
         <Hangmanword words={randWord} getWords={getOnClick} onwrong={onWrongUpdate} />
         <Keyboard onGuess={onGuess} guessedLetters={getOnClick} />
