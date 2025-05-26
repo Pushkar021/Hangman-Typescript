@@ -57,7 +57,7 @@ function App() {
         <div className="fixed bottom-3 mt-2  flex items-center gap-2 text-black text-sm  bg-opacity-70 px-4 py-2 rounded-full shadow-md">
   <span>Made with ❤️ by Pushkar</span>
   <a
-    href="https://github.com/your-username/your-repo"
+    href="hhttps://github.com/Pushkar021/Hangman-Typescript"
     target="_blank"
     rel="noopener noreferrer"
   >
